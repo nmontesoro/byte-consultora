@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BYTE Consultora</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="./styles/custom.css" />
+  </head>
+  <body>
+    <div style="height: 100vh">
+      <video
+        playsinline
+        autoplay
+        muted
+        loop
+        class="overflow-hidden position-absolute h-100 w-100 object-fit-cover"
+      >
+        <source src="./videos/mdp.webm" type="video/webm" />
+        Your browser does not support the video tag.
+      </video>
+
+      <div
+        class="h-100 position-relative align-items-center d-flex text-light"
+        style="background: rgba(0, 0, 0, 0.7)"
+      >
+        <div class="text-center position-relative">
+          <img
+            class="d-block mx-auto mb-4"
+            src="./images/logo.svg"
+            width="200"
+          />
+          <h1 class="display-5 fw-bold">Bienvenido a BYTE Consultora</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">
+              Somos la primera consultora IT en Mar del Plata que ofrece
+              soluciones integrales para potenciar tu presencia en línea y
+              optimizar tus operaciones digitales. Estamos listos para llevar tu
+              proyecto al siguiente nivel.
+            </p>
+            <p>
+              <strong
+                >Convertí tus ideas en realidad y descubrí cómo podemos
+                transformar tu visión en resultados.</strong
+              >
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <a
+                href="#contacto"
+                role="button"
+                class="btn btn-primary btn-lg px-4 gap-3"
+              >
+                Contactanos
+              </a>
+              <a
+                href="#nosotros"
+                role="button"
+                class="btn btn-secondary btn-lg px-4"
+              >
+                Conocenos
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom">Nuestros servicios</h2>
+
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+        <div class="col d-flex flex-column align-items-start gap-2">
+          <h2 class="fw-bold text-body-emphasis">
+            Soluciones digitales a la medida de tu empresa
+          </h2>
+          <p>
+            Las soluciones digitales constituyen un campo en constante evolución
+            que demanda la capacidad de adaptarse y la agilidad para abrazar las
+            últimas tecnologías. Hemos perfeccionado la habilidad de entender
+            las necesidades específicas de nuestros clientes y traducirlas en
+            soluciones digitales efectivas y eficientes. Desde la creación de
+            plataformas web y aplicaciones móviles personalizadas hasta la
+            optimización de procesos empresariales a través de la
+            automatización,
+            <strong
+              >estamos comprometidos en impulsar la transformación digital de tu
+              empresa.</strong
+            >
+          </p>
+
+          <p>
+            Nuestro equipo multidisciplinario está compuesto por expertos en
+            desarrollo de software, arquitectos de sistemas, diseñadores de UX y
+            consultores estratégicos que trabajan en conjunto para brindarte
+            soluciones a medida que se ajusten perfectamente a tus objetivos y
+            presupuesto.
+          </p>
+
+          <p>
+            Ya sea que necesites mejorar la eficiencia operativa, alcanzar una
+            mayor presencia en línea o revolucionar tu enfoque en la analítica
+            de datos, estamos acá para ayudarte a navegar por el complejo mundo
+            de la tecnología digital y llevar tu negocio al siguiente nivel.
+            <strong
+              >Confía en nosotros para liderar el camino hacia el éxito
+              digital.</strong
+            >
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Ver casos de éxito
+          </button>
+        </div>
+
+        <div class="col">
+          <div class="row row-cols-1 row-cols-sm-2 g-4">
+            <div class="col d-flex flex-column gap-2">
+              <img
+                src="./images/web.jpg"
+                class="overflow-hidden rounded-3 mx-auto"
+                width="100%"
+                height="150px"
+              />
+              <h4 class="fw-semibold mb-0 text-body-emphasis">
+                Desarrollo web
+              </h4>
+              <p class="text-body-secondary">
+                Creación de sitios web personalizados para una presencia en
+                línea excepcional.
+              </p>
+            </div>
+
+            <div class="col d-flex flex-column gap-2">
+              <img
+                src="./images/drive.jpg"
+                class="overflow-hidden rounded-3 mx-auto"
+                width="100%"
+                height="150px"
+              />
+              <h4 class="fw-semibold mb-0 text-body-emphasis">
+                Diseño de bases de datos
+              </h4>
+              <p class="text-body-secondary">
+                Diseñamos y optimizamos bases de datos para potenciar tus
+                operaciones.
+              </p>
+            </div>
+
+            <div class="col d-flex flex-column gap-2">
+              <img
+                src="./images/circuit.jpg"
+                class="overflow-hidden rounded-3 mx-auto"
+                width="100%"
+                height="150px"
+              />
+              <h4 class="fw-semibold mb-0 text-body-emphasis">
+                Integración de sistemas embebidos
+              </h4>
+              <p class="text-body-secondary">
+                Tomá el control integral de toda tu producción.
+              </p>
+            </div>
+
+            <div class="col d-flex flex-column gap-2">
+              <img
+                src="./images/chart.png"
+                class="overflow-hidden rounded-3 mx-auto"
+                width="100%"
+                height="150px"
+              />
+              <h4 class="fw-semibold mb-0 text-body-emphasis">
+                Data analytics
+              </h4>
+              <p class="text-body-secondary">
+                Potenciamos tu toma de decisiones con análisis de datos
+                estratégicos y precisos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="b-example-divider"></div>
+
+    <div id="nosotros" class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom">Quiénes somos</h2>
+
+      <div class="row text-center">
+        <div class="col-lg-4 offset-lg-1">
+          <img
+            class="rounded-circle"
+            src="./images/juani.jpg"
+            alt="Foto de perfil"
+            width="140"
+            height="140"
+          />
+          <h2>Juan Ignacio Couselo</h2>
+          <p>
+            Profesional de TI que actualmente lidera proyectos técnicos en
+            InnovateTech, mostrando un fuerte compromiso con la calidad y
+            eficiencia. Su experiencia abarca desde el desarrollo web hasta la
+            analítica de datos, destacando en la resolución de problemas y
+            creación de soluciones eficientes. Con habilidades en Python, Java y
+            SQL, su enfoque meticuloso lo convierte en un recurso valioso en el
+            campo de la tecnología.
+          </p>
+
+          <p>
+            <a
+              class="btn btn-secondary"
+              href="https://www.linkedin.com/in/juan-couselo-ba9645245/"
+              role="button"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+        <div class="col-lg-4 offset-lg-2">
+          <img
+            class="rounded-circle"
+            src="./images/naza.jpg"
+            alt="Foto de perfil"
+            width="140"
+            height="140"
+          />
+          <h2>Nazareno Montesoro</h2>
+          <p>
+            Estudiante de Ingeniería en Computación apasionado por los desafíos
+            técnicos. Destaca por diseñar soluciones eficientes, como un sistema
+            automatizado de reparto de propinas. Actualmente, como pasante en
+            Grupo Veraz, optimiza bases de datos y sistemas clave. Domina C/C++,
+            Python, Javascript y más, con fluidez en inglés. Su enfoque en
+            proyectos reales y habilidades diversas lo convierte en un candidato
+            excepcional en el mundo de la informática.
+          </p>
+          <p>
+            <a
+              class="btn btn-secondary"
+              href="https://www.linkedin.com/in/nmontesoro/"
+              role="button"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="b-example-divider"></div>
+
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5" id="contacto">
+      <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">
+            Comunicate con nosotros
+          </h1>
+          <p class="col-lg-10 fs-4">
+            Envianos un mensaje por acá y nos pondremos en contacto a la
+            brevedad.
+          </p>
+          <div class="embed-responsive embed-responsive-4by3 border rounded-3">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1571.5486325923782!2d-57.532548461008254!3d-38.02151187999049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc356473c0b1%3A0xc8479fd46078aba9!2sLeandro%20N.%20Alem%202953%2C%20B7602DWC%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1694363019769!5m2!1sen!2sar"
+              width="100%"
+              height="300px"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="tel"
+                class="form-control"
+                id="floatingTel"
+                placeholder="Teléfono"
+              />
+              <label for="floatingTel">Tu teléfono</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea
+                class="form-control"
+                id="floatingDesc"
+                placeholder="Descripción"
+                autocomplete="off"
+                rows="5"
+              ></textarea>
+              <label for="floatingDesc">Tu consulta</label>
+            </div>
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me" /> Pueden llamarme
+              </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">
+              Enviar
+            </button>
+            <hr class="my-4" />
+            <small class="text-body-secondary"
+              >Al hacer click en Enviar aceptás nuestros términos de uso.</small
+            >
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modalEmpresas"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">Casos de éxito</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row row-cols-1 row-cols-lg-12">
+              <div class="col col-lg-3">
+                <img
+                  class="w-100 object-fit-contain"
+                  src="./images/nucleo.png"
+                  style="max-height: 70px"
+                />
+              </div>
+              <div class="col col-lg-9">
+                <h5>Grupo Núcleo</h5>
+                <p>
+                  Colaboramos estrechamente con Grupo Núcleo para mejorar su
+                  presencia en línea y la eficiencia de sus operaciones
+                  comerciales. Se implementó un sistema de gestión de inventario
+                  personalizado que optimizó la logística y garantizó una
+                  entrega más rápida y precisa de productos de alta calidad.
+                </p>
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-12">
+              <div class="col col-lg-3">
+                <img
+                  class="w-100 object-fit-contain"
+                  src="./images/antares.png"
+                  style="max-height: 70px"
+                />
+              </div>
+              <div class="col col-lg-9">
+                <h5>Cervecería Antares</h5>
+                <p>
+                  Colaboramos con Cervecería Antares para optimizar su presencia
+                  en línea, desarrollando una plataforma web interactiva que
+                  resalta la tradición cervecera y la innovación. Además, se
+                  implementó un sistema de gestión de pedidos en línea,
+                  brindando a los clientes una experiencia de compra conveniente
+                  y mejorando la eficiencia en la distribución de sus cervezas
+                  artesanales.
+                </p>
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-12">
+              <div class="col col-lg-3">
+                <img
+                  class="w-100 object-fit-contain"
+                  src="./images/taie.png"
+                  style="max-height: 70px"
+                />
+              </div>
+              <div class="col col-lg-9">
+                <h5>Fares Taie Biotecnología</h5>
+                <p>
+                  Trabajamos con Fares Taie Biotecnología para optimizar sus
+                  procesos y servicios, implementando un sistema de gestión de
+                  laboratorios que mejoró la eficiencia en los análisis
+                  clínicos, medioambientales, de alimentos, veterinarios,
+                  agropecuarios y genómicos. Desarrollamos herramientas de
+                  seguimiento de calidad y se mejoró la comunicación interna, lo
+                  que permitió a Fares Taie continuar ofreciendo un servicio de
+                  excelencia en análisis, asesoramiento y productos de
+                  biotecnología a la comunidad.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
